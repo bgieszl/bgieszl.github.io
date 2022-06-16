@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Countries</title>
+</head>
+<body id="countriespage">
+    <div class="navbar">
+        <h1><a href="index.html">Europe Trip 2022</a></h1>
+    </div>
+    <ul>
+        <li class="special">
+            <span onclick="openNav()">&#9776;</span>
+            <div id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="countries.html">Countries</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <div class="grid">
+        <span class="card" onclick="location='ireland.html'">
+            
+            <div class="container">
+              <h2><b>Ireland</b></h2>
+              <p>June 21 - June 23</p>
+            </div>
+        </span> 
+        <span class="card" onclick="location='london.html'">
+            
+            <div class="container">
+              <h2><b>London</b></h2>
+              <p>June 23 - June 26</p>
+            </div>
+        </span> 
+        <span class="card" onclick="location='paris.html'">
+            
+            <div class="container">
+              <h2><b>Paris</b></h2>
+              <p>June 26 - June 30</p>
+            </div>
+        </span> 
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
