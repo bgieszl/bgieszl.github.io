@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', helventica, sans-serif;
+  letter-spacing: 0.3em;
+  background: #2e3842;
+  color: white;
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+/*nav bar menu*/
+#menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background-color: #2e3842;
+  overflow-x: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding-top: 60px;
+  /* menu Items */
+}
+
+#menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#menu a:hover {
+  color: #f1f1f1;
+}
+
+#menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 28px;
+  margin-left: 50px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* nav bar on landing page*/
+#nav {
+  position: fixed;
+  top: -80px;
+  background-color: #2e3842;
+  width: 100%;
+  z-index: 2;
+  height: 7%;
+}
+
+/*landing page banner*/
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../assets/images/banner.jpeg");
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/banner.jpeg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-attachment: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* three line open menu button*/
+  /*nav bar logo*/
+  /*landing page title */
+  /*learn more text*/
+}
+
+.banner .special span {
+  position: fixed;
+  right: 0;
+  top: 5px;
+  padding: 0px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.banner h1 {
+  margin: 0;
+  padding: 5px;
+}
+
+.banner h1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.banner .title {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: medium;
+  border-color: white;
+  top: 40%;
+  width: auto;
+  /*text for the title*/
+}
+
+.banner .title .maintitle {
+  font-weight: 700;
+  border-style: solid none;
+  border-width: 2px;
+  padding: 4px;
+}
+
+.banner #learn {
+  position: absolute;
+  top: 85%;
+}
+
+.banner #learn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*all unorder lists to not show bullet points*/
+ul {
+  list-style: none;
+}
+
+.main {
+  height: 100%;
+  background-color: #21b2a6;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  padding: 1em;
+  grid-gap: 1em;
+  background-color: #505393;
+  overflow: visible;
+}
+
+@media screen and (min-width: 900px) {
+  #countriespage .grid {
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  .tabcontent img {
+    max-width: 300px;
+  }
+}
+
+.card {
+  display: block;
+  background-color: #6165b2;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card p {
+  letter-spacing: normal;
+}
+
+.card .container {
+  text-align: center;
+  margin: 3em;
+}
+
+.card img {
+  width: 100%;
+  height: inherit;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  opacity: 70%;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  height: 5%;
+  background-color: #2e3842;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+  position: absolute;
+  top: 9px;
+}
+
+.special span {
+  position: fixed;
+  right: 0;
+  top: 5px;
+  padding: 0px;
+  font-size: 20px;
+  z-index: 2;
+}
+
+#countriespage {
+  background-color: #2e3842;
+}
+
+/* Style tab links */
+.tablink {
+  margin-top: 30px;
+  background-color: #6165b2;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-size: 10px;
+  width: 15%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  background-color: inherit;
+}
+
+.planheader {
+  z-index: 1;
+  position: relative;
+  top: 10%;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
