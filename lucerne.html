@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Lucerne</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1><a href="index.html">Europe Trip 2022</a></h1>
+        <button class="tablink" onclick="openPage('day1', this, 'grey')"id="defaultOpen">July 5</button>
+        <button class="tablink" onclick="openPage('day2', this, 'grey')" >July 6</button>
+        <button class="tablink" onclick="openPage('day3', this, 'grey')">July 7</button>
+    </div>
+    <ul>
+        <li class="special">
+            <span onclick="openNav()">&#9776;</span>
+            <div id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="countries.html">Countries</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <div class="planheader">
+        <h1 style="color: whtie;"><b>Lucerne</b></h1>
+    </div>
+    <div id="day1" class="tabcontent">
+        <div class="grid">
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p><a href="https://www.google.com/maps/place/Luzern/@47.0494923,8.3081954,17z/data=!3m1!4b1!4m5!3m4!1s0x478ffb98861b02a9:0x9c81ffcf202e488d!8m2!3d47.0494887!4d8.3103841"target="_blank"> Luzern</a> <br />
+                        EC 196 at 8:55am to 12:27pm to Zuerich Hb
+                        <br />
+                        
+                        <br />
+                        TRN 2118 at 12:35pm to 1:25pm to Luzern
+                     </p>
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <img src="/assets/images/mun-luz.png" alt="">
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p><a href="https://www.google.com/maps/place/Bellevue+%E2%80%93+Contactless+Self+Check-In/@47.0434744,8.3499727,20.49z/data=!4m8!3m7!1s0x478ff961a44cb8f9:0x76ac6504b733d8b2!5m2!4m1!1i2!8m2!3d47.0434952!4d8.3500109"target="_blank">Hotel Bellevue</a> <br />
+                        Tranist to hotel from train station </p>
+                        <a href="https://www.google.com/maps/dir/Lucerne+Train+Station,+Zentralstrasse,+Lucerne,+Switzerland/Bellevue+%E2%80%93+Contactless+Self+Check-In,+Seeburgstrasse+79,+6006+Luzern,+Switzerland/@47.0512901,8.3123034,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x478ffb98861b02a9:0x9c81ffcf202e488d!2m2!1d8.3103841!2d47.0494887!1m5!1m1!1s0x478ff961a44cb8f9:0x76ac6504b733d8b2!2m2!1d8.3500109!2d47.0434952!3e3"target="_blank">14 min bus</a> 
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p>Get Dinner somewhere</p>
+                </div>
+            </span> 
+        </div>
+    </div>
+      
+    <div id="day2" class="tabcontent">
+        <div class="grid">
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p>Matterhorn Day <br /> wake up early cause train leaves at 7am</p>
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p><a href="https://www.google.com/maps/place/Luzern/@47.0494923,8.3081954,17z/data=!3m1!4b1!4m5!3m4!1s0x478ffb98861b02a9:0x9c81ffcf202e488d!8m2!3d47.0494887!4d8.3103841"target="_blank"> Luzern</a> <br />
+                        TRN 2510 at 7am to 8am to Bern
+                        <br />
+                        IC 806 at 8:07am to 9:02am to Visp
+                        <br />
+                        RE 221 at 9:08am to 10:14am to Zermatt
+                     </p>
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <img src="/assets/images/lu-zer.png" alt="">
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p>Have fun at Matterhorn till around 5pm</p>
+                </div>
+            </span> 
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p><a href="https://www.google.com/maps/place/Zermatt/@46.02447,7.7463637,18z/data=!4m9!1m2!2m1!1szermatt+train+station!3m5!1s0x478f3675de88e779:0xcc169fa9e5323505!8m2!3d46.02447!4d7.748289!15sChV6ZXJtYXR0IHRyYWluIHN0YXRpb26SAQ10cmFpbl9zdGF0aW9u"target="_blank"> Zermatt</a> <br />
+                        RE 262 at 5:37pm to 6:46pm to Visp
+                        <br />
+                        IC 833 at 6:57pm to 7:54pm to Bern
+                        <br />
+                        TRN 2533 at 8pm to 9:01pm to Lucerne
+                     </p>
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <img src="/assets/images/zer-lu.png" alt="">
+                </div>
+            </span>
+        </div>
+    </div>
+      
+    <div id="day3" class="tabcontent">
+        <div class="grid">
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p><a href="https://www.google.com/maps/place/Luzern/@47.0494923,8.3081954,17z/data=!3m1!4b1!4m5!3m4!1s0x478ffb98861b02a9:0x9c81ffcf202e488d!8m2!3d47.0494887!4d8.3103841"target="_blank"> Luzern</a> <br />
+                        Get to Train station by 7am
+                    </p>
+                </div>
+            </span> 
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <p><a href="https://www.google.com/maps/place/Venice+Mestre/@45.4824718,12.2296672,17.08z/data=!4m5!3m4!1s0x477eb424f6e08a8f:0x366abd5ea02a8e96!8m2!3d45.482465!4d12.2317662"target="_blank"> Venice Mestre</a> <br />
+                        TRN 2015 at 7:39am to 8:11am to Arth-Goldau
+                        <br />
+                        EC 313 at 8:39am to 10:50am to Milano Centrale
+                        <br />
+                        Seat Reservation Required: Coach 10; Seat 11, 23, 24, 25, 26 
+                        <br />
+                        FA 9723 at 11:45am to 2pm to Venezia Mestre
+                        <br />
+                        Seat Reservation Required: Coach 2, Seat 6A, 6B, 7A, 7B, 7D
+                     </p>
+                </div>
+            </span>
+            <span class="card" onclick="location='#'">
+                <div class="container">
+                    <img src="/assets/images/lu-ven.png" alt="">
+                </div>
+            </span>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
