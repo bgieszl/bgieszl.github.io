@@ -135,12 +135,18 @@ html, body{
     #learn{
         position: absolute;
         top:85%;
-        
+        background-color: #505393;
+        padding: 1em;
         a{
             text-decoration: none;
             text-transform: uppercase;
             color: white;
+            
         }
+    }
+    #learn:hover{
+        background-color: #6165b2;
+        cursor: pointer;
     }
 }
 /*all unorder lists to not show bullet points*/
@@ -193,6 +199,7 @@ ul{
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     opacity: 70%;
+    cursor: pointer;
   }
 
 .navbar{
